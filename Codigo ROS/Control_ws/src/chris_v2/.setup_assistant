@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: arm6
+    relative_path: urdf/arm6.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/arm6.srdf
+  CONFIG:
+    author_name: David Antonio Toro Medina
+    author_email: david-toro92@hotmail.com
+    generated_timestamp: 1572122535
